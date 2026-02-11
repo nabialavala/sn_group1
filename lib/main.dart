@@ -41,6 +41,16 @@ class _ValentineHomeState extends State<ValentineHome> {
             onChanged: (value) => setState(() => selectedEmoji = value ?? selectedEmoji),
           ),
           const SizedBox(height: 16),
+          Container(
+            width: 200,
+            height: 200,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/images/love_icon.png'),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
           Expanded(
             child: Center(
               child: CustomPaint(
