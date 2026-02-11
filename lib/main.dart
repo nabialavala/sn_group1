@@ -46,7 +46,7 @@ class _ValentineHomeState extends State<ValentineHome> {
             height: 200,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/images/love_icon.png'),
+                image: AssetImage('assets/images/love_letter.png'),
                 fit: BoxFit.cover,
               ),
             ),
